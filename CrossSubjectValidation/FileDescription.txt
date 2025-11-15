@@ -1,0 +1,1 @@
+Folder contains scripts for data preparation of datasets for cross-subject validation and classification of features 
