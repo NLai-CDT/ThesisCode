@@ -1,0 +1,1 @@
+This folder includes scripts for preprocessing of signals for within-subject validation and subsequent classification of features
