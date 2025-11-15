@@ -1,0 +1,1 @@
+This folder contains the functions for the spatial feature selection methods to identify channels of important and the implementation of TShap - to identify optimal time windows
