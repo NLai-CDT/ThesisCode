@@ -4,7 +4,7 @@ clc
   
 % Set parameters
 Condition = 'Features'; % Raw or Features
-LoadingPath='/home/nicole/Documents/AudioCueWalking_analysis/Variables/AdaptVsNon/Combined_Subjects/TrainingTestingDatasets/SeperateConditions/Delay';
+LoadingPath='.../Combined_Subjects/TrainingTestingDatasets/SeperateConditions/Delay';
 seed=1;
 
 
