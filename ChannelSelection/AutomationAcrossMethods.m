@@ -2,7 +2,7 @@
 Methods = ["ChannelRegression", "CSPRank", "SpatialSHAP_Abs", ...
            "SpatialSHAP", "SumSHAP", "CorrelationCoefficient"];
 
-featureNamesFile = "C:\Users\mailt\OneDrive - University of Glasgow\Documents\RemoteDesktopsBackup\Metoma\BackUp_24_10_2024\AudioCueAnalysis\Adapt_NonAdapt\Interpretability\ElectrodesLabels.xlsx";
+featureNamesFile = "...\ElectrodesLabels.xlsx";
 
 % Initialize structs for storing weights and indices
 Weights_Methods = struct();
@@ -68,3 +68,4 @@ end
 % Save results
 save('Weights_Methods_Delay.mat', 'Weights_Methods');
 save('Indices_Methods_Delay.mat', 'Indices_Methods');
+
