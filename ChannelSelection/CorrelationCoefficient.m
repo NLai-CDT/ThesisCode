@@ -2,7 +2,6 @@ function ElectrodeImportance = CorrelationCoefficient(EEG_data, num_windows)
 
     ElectrodeImportance = cell(1, num_windows);
 
-    % Assumed matrix structure (specifically number of trials is consistent across all windows) 
     Nt = size(EEG_data{1}.x, 2); 
     Nc = size(EEG_data{1}.x, 1); 
     Ns = size(EEG_data{1}.x, 3); 
@@ -37,3 +36,4 @@ function ElectrodeImportance = CorrelationCoefficient(EEG_data, num_windows)
         %ElectrodeImportance{t} = ranked_channels(1:N_s); % Select top N_s channels
     end
 end
+
