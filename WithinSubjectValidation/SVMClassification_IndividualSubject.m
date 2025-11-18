@@ -4,7 +4,7 @@ clc,
 
 % Set parameters
 Condition = 'Features_R'; % Raw or Features
-LoadingPath='/home/nicole/Documents/AudioCueWalking_analysis/Variables/AdaptVsNon/Individual_Subjects/WindowingEEGSignals/TrainingTestingDatasets/SeperateConditions/Delay';
+LoadingPath='.../TrainingTestingDatasets/SeperateConditions/Delay';
 seed=1;
 %subjectID=1;
 
