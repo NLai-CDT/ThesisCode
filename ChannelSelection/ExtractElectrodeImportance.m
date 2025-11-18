@@ -49,7 +49,7 @@ end
 Method = "ChannelRegression";
 num_windows = 20;
 
-%featureNamesFile = "C:\Users\mailt\OneDrive - University of Glasgow\Documents\RemoteDesktopsBackup\Metoma\BackUp_24_10_2024\AudioCueAnalysis\Adapt_NonAdapt\Interpretability\ElectrodesLabels.xlsx";
+%featureNamesFile = "....\Interpretability\ElectrodesLabels.xlsx";
 
 
 % Obtain electrode weights 
@@ -171,3 +171,4 @@ else
 
     end
 end
+
