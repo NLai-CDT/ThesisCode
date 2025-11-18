@@ -7,7 +7,7 @@ seed=1;
 nbFilterPairs = 108*0.5;
 
 %% Training dataset: CSP filter, Projected Signals, Features 
-cd /home/nicole/Documents/AudioCueWalking_analysis/Scripts/
+cd ..../AudioCueWalking_analysis/Scripts/
 
 RCSP_Filter = cell(1,18);
 CSP_Filter = cell(1,18);
